@@ -1,0 +1,105 @@
+
+.messagetext
+{
+    width: 10cm;
+    height: 2cm;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 12cm;
+    margin-top: 5cm;
+    
+}
+h1
+{
+padding: 10px;
+}
+.error
+{
+    padding: 20px;
+    margin-left: -50px;
+}
+.errorpage
+{
+    text-align: center;
+    width: 13cm;
+    height: 4cm;
+    color: #fff;
+    background-color: #000;
+    margin-left: 12cm;
+    margin-top: 5cm;
+    border-radius: 20px;
+}
+.errortext
+{
+    padding: 40px;
+    font-size: 60px;
+  
+}
+.errortime
+{
+    
+    margin-top: 0cm;
+    width: 12cm;
+    height: 1cm;
+    border-radius: 20px;
+    background-color: #000;
+    margin-left: 0.5cm;
+}
+.err
+{
+    padding: 5px;
+}
+.errortimeout
+{
+    
+    margin-top: 0cm;
+    width: 9cm;
+    height: 1cm;
+    border-radius: 20px;
+    background-color: #000;
+    margin-left: 0.5cm;
+}
+.happyghost
+{
+    margin-top: 0.5cm;
+}
+.sadghost
+{
+    margin-top: 1.5cm;
+}
+
+
+/* tablet & mobile screens */
+@media only screen and (max-width: 768px) 
+{
+    .messagetext
+{
+    margin-left: 01.5cm;
+}
+.errorpage
+{
+    
+    width: 10cm;
+    margin-left: 1.5cm;
+   
+}
+.errortext
+{
+    padding: 10px;
+    font-size: 50px;
+  
+}
+.error
+{
+    margin-left: -0.4cm;
+}
+.errortime
+{
+    
+    width: 9cm;
+    height: 1.4cm;
+
+}
+}
